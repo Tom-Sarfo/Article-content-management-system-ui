@@ -1,0 +1,32 @@
+main {
+    display: grid;
+    grid-template-areas:
+      "sidebar nav2"
+      "sidebar articles"
+      "sidebar pagination";
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: minmax(50px, 1fr) 9fr 1fr;
+    gap: 10px;
+  }
+  
+  aside {
+    grid-area: sidebar;
+    background-color: white;
+    border-right: 2px solid #EFEFEF;
+  }
+  
+  .nav2 {
+    grid-area: nav2;
+    background-color: aqua;
+  }
+  
+  .articles{
+    grid-area: articles;
+    background-color: blueviolet;
+  }
+  
+  .pagination {
+    grid-area: pagination;
+    background-color: whitesmoke;
+  }
+  
