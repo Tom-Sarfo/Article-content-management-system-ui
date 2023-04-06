@@ -1,0 +1,42 @@
+.articles {
+    display: flex;
+    flex-direction: column;
+}
+
+.articles article{
+    display: flex;
+    /* border: 2px solid red; */
+    padding: 0.5rem;
+    border-bottom: 2px solid #EFEFEF;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.articles section {
+    display: flex;
+    order: 2;
+    flex-grow: 1;
+    padding: 0.5rem;
+    /* border: 2px solid red; */
+    justify-content: space-around;
+
+}
+
+.articles .square {
+    order: 0;
+    border: 2px solid #EFEFEF;
+    width: 1rem;
+    height: 1rem;
+    text-align: center;
+    border-radius: 0.2rem;
+    color: #9e9d9d;
+}
+
+.articles h2 {
+    order: 1;
+    font-size: 1rem;
+    margin: 0;
+    flex-grow: 1;
+    /* border: 2px solid blue; */
+    padding: 0.5rem;
+}

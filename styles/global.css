@@ -24,6 +24,7 @@ select {
     width: 2rem;
     text-align: center;
     border-radius: 0.5rem;
+    color: #9e9d9d;
 }
 
 .import-btn, 
@@ -36,4 +37,5 @@ select {
     align-items: center;
     justify-content: space-around;
     border-radius: 0.5rem;
+    color: #9e9d9d;
   }

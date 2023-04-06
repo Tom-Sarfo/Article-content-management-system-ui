@@ -9,7 +9,7 @@
     border: 2px solid #EFEFEF;
     border-radius: 0.5rem;
     padding: 0.5rem;
-    color: #EFEFEF;
+    color: #9e9d9d;
 }
 
 .nav2 input {
@@ -31,4 +31,5 @@
     align-items: center;
     justify-content: space-around;
     border-radius: 0.5rem;
+    color: #9e9d9d;
 }

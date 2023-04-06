@@ -25,7 +25,10 @@ main {
   
   .articles{
     grid-area: articles;
-    background-color: blueviolet;
+    background-color: white;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    border: 2px solid #EFEFEF ;
   }
   
   .pagination {
