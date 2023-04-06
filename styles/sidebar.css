@@ -4,13 +4,22 @@
     padding: 1rem;
 }
 
-.sidebar-item2 > div {
+.sidebar-item2 > .row {
     display: flex;
     padding: 0.5rem;
     align-items: center;
-    justify-content: space-between;
-    
+    justify-content: space-between; 
+    /* border: 2px solid red; */
 }
+
+.sidebar-item2 > .row > div{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* border: 2px solid red; */
+  /* flex-grow: 1; */
+}
+
 
 aside > p {
   margin-top: auto;

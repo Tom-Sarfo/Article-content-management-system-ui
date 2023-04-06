@@ -34,6 +34,12 @@ nav .left{
     align-items: center;
 }
 
+nav .left .material-symbols-outlined:hover {
+    background-color: rgb(197, 196, 196);
+    border-radius: 0.5rem;
+    color: white;
+}
+
 nav .middle{
     display: flex;
     flex-grow: 8;
@@ -69,6 +75,12 @@ nav ul li:nth-of-type(1) button {
     justify-content: space-around;
 }
 
+nav ul li:nth-of-type(1) button:hover{
+    background-color: #635AFF;
+    color: white;
+    cursor: pointer;
+}
+
 nav ul li:nth-of-type(2) button {
     font-size: 1.2rem;
     padding: 0.5rem;
@@ -78,4 +90,10 @@ nav ul li:nth-of-type(2) button {
     border: 0px;
     background-color: #635AFF;
     color: white;
+}
+
+nav ul li:nth-of-type(2) button:hover{
+    background-color: #EFEFEF;
+    color: black;
+    cursor: pointer;
 }

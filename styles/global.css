@@ -8,6 +8,10 @@ a {
     color: black;
 }
 
+a:hover{
+    color: blue;
+}
+
 select {
     width: 10rem;
     padding: 0.5rem;
@@ -27,6 +31,18 @@ select {
     color: #9e9d9d;
 }
 
+.sidebar-item1 > div:hover {
+    background-color: #9e9d9d;
+    color: white;
+    cursor: pointer;
+}
+
+.settings-btn:hover{
+    background-color: #9e9d9d;
+    color: white;
+    cursor: pointer;
+}
+
 .import-btn, 
 .export-btn {
     border: 2px solid #EFEFEF;
@@ -38,4 +54,15 @@ select {
     justify-content: space-around;
     border-radius: 0.5rem;
     color: #9e9d9d;
+  }
+
+  
+  .export-btn:hover{
+    background-color: #9e9d9d;
+    color: white;
+  }
+
+  .import-btn:hover{
+    background-color: #9e9d9d;
+    color: white;
   }

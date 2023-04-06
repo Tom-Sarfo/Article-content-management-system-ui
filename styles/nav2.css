@@ -33,3 +33,8 @@
     border-radius: 0.5rem;
     color: #9e9d9d;
 }
+
+.new-post-btn:hover{
+    background-color: #9e9d9d;
+    color: white;
+  }
