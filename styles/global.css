@@ -18,7 +18,7 @@ select {
 }
 
 .sidebar-item1 > div, 
-.settings-btn  {
+.settings-btn, .dots {
     border: 2px solid #EFEFEF;
     padding: 0.3rem;
     width: 2rem;
